@@ -40,7 +40,7 @@ def serve_academics():
 def serve_admission():
     return send_file('sit-web - Copy/New SIT WEBPAGE/admission.html')
 
-def scrape_entire_site(start_url, max_pages=200):
+def scrape_entire_site(start_url, max_pages=50):
     visited = set()
     to_visit = [start_url]
     all_text = []
