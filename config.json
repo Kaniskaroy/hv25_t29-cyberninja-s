@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "http://localhost:5000/chat",
+  "universityUrl": "https://www.sittechno.org/",
+  "maxPages": 50
+}

@@ -1,0 +1,77 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "examples": [
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I help you with?"
+            ]
+        },
+        {
+            "intent": "farewell",
+            "examples": [
+                "Goodbye",
+                "See you later",
+                "Bye"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!"
+            ]
+        },
+        {
+            "intent": "university_info",
+            "examples": [
+                "Tell me about the university",
+                "What can you tell me about the university?",
+                "Give me information about the university"
+            ],
+            "responses": [
+                "The university is known for its excellent programs and research opportunities.",
+                "Our university offers a variety of courses and has a vibrant campus life."
+            ]
+        },
+        {
+            "intent": "admissions_info",
+            "examples": [
+                "What are the admission requirements?",
+                "How can I apply for admission?",
+                "Tell me about the admission process."
+            ],
+            "responses": [
+                "You can find the admission requirements on our website under the admissions section.",
+                "To apply for admission, please visit our admissions page for detailed instructions."
+            ]
+        },
+        {
+            "intent": "courses_info",
+            "examples": [
+                "What courses do you offer?",
+                "Tell me about the available courses.",
+                "What programs can I enroll in?"
+            ],
+            "responses": [
+                "We offer a variety of courses across different fields. Please check our courses page for more details.",
+                "Our university has programs in engineering, arts, sciences, and more."
+            ]
+        },
+        {
+            "intent": "fallback",
+            "examples": [
+                "I don't understand.",
+                "Can you help me?",
+                "What do you mean?"
+            ],
+            "responses": [
+                "I'm sorry, I didn't quite catch that. Can you please rephrase your question?",
+                "I’m not sure how to respond to that. Could you ask something else?"
+            ]
+        }
+    ]
+}
